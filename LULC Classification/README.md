@@ -23,6 +23,9 @@ Bu proje, Sentinel-2 uydu görüntülerinden elde edilen spektral bantlar ve tü
 
 ## Kullanılan Yöntemler
 ### Rastgele Orman (Random Forest)
+
+Random Forest, makine öğrenmesinde yaygın olarak kullanılan bir denetimli öğrenme algoritmasıdır. Birden fazla karar ağacının birleşiminden oluşan bir topluluk öğrenme (ensemble learning) yöntemidir. Her bir karar ağacı, verilen veriye göre sınıflandırma veya regresyon tahminleri yapar. Random Forest, bu bireysel ağaçların tahminlerini birleştirerek daha doğru ve güvenilir sonuçlar elde eder.
+
 - **Hiperparametreler:** 
   - `max_depth`: 30
   - `min_samples_leaf`: 1
@@ -31,6 +34,8 @@ Bu proje, Sentinel-2 uydu görüntülerinden elde edilen spektral bantlar ve tü
   - F1 Skoru
   - Kappa
 - **Özellik Önem Dereceleri:** Modelin hangi özelliklere daha fazla önem verdiği SHAP ile analiz edilmiştir.
+
+<br>
 
 ### SHAP (SHapley Additive Explanations)
 SHAP yöntemi, sınıflandırma modelinin karar süreçlerini açıklamak için kullanılmıştır. Bu yöntemle, her bir özelliğin sınıflandırma üzerindeki etkisi görselleştirilmiştir.
