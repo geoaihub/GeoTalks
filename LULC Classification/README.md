@@ -17,7 +17,7 @@ Bu proje, Sentinel-2 uydu görüntülerinden elde edilen spektral bantlar ve tü
   - 9 spektral bant (örneğin, B2, B3, B4, B8).
   - 9 indeks (örneğin, NDVI, NDWI, NDTI).
   - Sayısal Yükseklik Modeli (SYM).
-- **Etiketli Veriler:** Toplamda 1.575.249 piksel etiketlenmiş ve her sınıf için yaklaşık 20.000 etiketli nokta kullanılmıştır.
+- **Etiketli Veriler:** 5 farklı sınıfta, her bir sınıf için 20.000 etiketli nokta kullanılmıştır.
 
 <br>
 
@@ -35,12 +35,15 @@ Bu proje, Sentinel-2 uydu görüntülerinden elde edilen spektral bantlar ve tü
 ### SHAP (SHapley Additive Explanations)
 SHAP yöntemi, sınıflandırma modelinin karar süreçlerini açıklamak için kullanılmıştır. Bu yöntemle, her bir özelliğin sınıflandırma üzerindeki etkisi görselleştirilmiştir.
 
+Daha spesifik olmak gerekirsek eğer, bu çalışmada beş farklı arazi sınıfına ait global minimum ve maksimum değerler belirlenerek SHAP değerleri görselleştirilmiştir. İlk olarak, her bir sınıf için SHAP değerleri yüklenip yeniden şekillendirilerek 50x50'lik bir matris oluşturulmuştur. Ardından, bu verilerin 32x32'lik kısmı kullanılarak her sınıf için renkli haritalar (heatmap) oluşturulmuştur. Görselleştirme, her bir sınıfın model üzerindeki etkisini göstermek amacıyla SHAP değerlerini renkli bir şekilde sunmuştur. Sonuç olarak, bu işlem, modelin hangi özelliklere odaklandığını ve karar verme süreçlerini daha şeffaf hale getirmiştir.
+
+<img  src="https://raw.githubusercontent.com/geoaihub/GeoTalks/refs/heads/main/LULC%20Classification/plots/SHAP_visual.png"  height=300  width=1000  alt="https://github.com/geoaihub"/>
+
 <br>
 
 ## Çıktılar
-- **Karışıklık Matrisi:** Modelin hangi sınıflar arasında hata yaptığı analiz edilmiştir.
-- **SHAP Değerleri:** Özelliklerin önem dereceleri grafiklerle gösterilmiştir.
-- **Haritalama:** Sınıflandırma sonuçları coğrafi haritalar üzerinde görselleştirilmiştir.
+
+Bu çalışmada, modelin performansı çeşitli yöntemlerle analiz edilmiştir. İlk olarak, karışıklık matrisi kullanılarak modelin hangi sınıflar arasında hata yaptığı incelenmiştir. Ardından, SHAP değerleri ile modelin kullandığı özelliklerin önem dereceleri grafiksel olarak gösterilmiştir. Son olarak, haritalama yöntemiyle, sınıflandırma sonuçları coğrafi haritalar üzerinde görselleştirilerek, modelin tahminlerinin mekansal dağılımı ortaya konulmuştur.
  
 <br>
 
