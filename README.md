@@ -7,7 +7,7 @@
 <br>
 
 ## GeoTalks Hakkında
-İstanbul Teknik Üniversitesi Jeodezi ve Fotogrametri Kulübü (JFK) tarafından düzenlenen GeoTalks, Geomatik Mühendisliği öğrencileri ile sektörde çalışan uzmanları bir araya getiren bir etkinlikler serisidir. Bu etkinliklerde mesleki deneyimler paylaşılır, katılımcılar farklı bakış açıları kazanır ve meslektaşlarıyla rahatça iletişim kurma fırsatı bulur. GeoTalks, online eğitim sürecinde başlatılmış olup, yüz yüze eğitimde de devam ettirilmektedir.
+İstanbul Teknik Üniversitesi Jeodezi ve Fotogrametri Kulübü (JFK) tarafından düzenlenen [GeoTalks](https://jfk.itu.edu.tr/index.html), Geomatik Mühendisliği öğrencileri ile sektörde çalışan uzmanları bir araya getiren bir etkinlikler serisidir. Bu etkinliklerde mesleki deneyimler paylaşılır, katılımcılar farklı bakış açıları kazanır ve meslektaşlarıyla rahatça iletişim kurma fırsatı bulur. GeoTalks, online eğitim sürecinde başlatılmış olup, yüz yüze eğitimde de devam ettirilmektedir.
 
 ## Bu Repository Hakkında
 Bu repository, GeoTalks etkinlikleri kapsamında gerçekleştirilen iki çalışmayı içermektedir:
