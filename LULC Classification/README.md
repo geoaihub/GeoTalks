@@ -41,16 +41,14 @@ SHAP yöntemi, sınıflandırma modelinin karar süreçlerini açıklamak için 
 - **Karışıklık Matrisi:** Modelin hangi sınıflar arasında hata yaptığı analiz edilmiştir.
 - **SHAP Değerleri:** Özelliklerin önem dereceleri grafiklerle gösterilmiştir.
 - **Haritalama:** Sınıflandırma sonuçları coğrafi haritalar üzerinde görselleştirilmiştir.
-
-<br>
-
-## Kurulum
-Gerekli kütüphaneleri yükleyin:
-   ```bash
-   pip install shap pandas seaborn matplotlib scikit-learn
-   ```
-   
+ 
 <br>
 
 ## Katkıda Bulunun
 Bu projeye katkıda bulunmak için lütfen bir **pull request** gönderin veya bir **issue** açarak görüşlerinizi paylaşın.
+
+<br>
+
+## Lisans
+
+Bu projeler, MIT lisansı altında yayınlanmıştır.
