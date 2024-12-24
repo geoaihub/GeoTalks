@@ -27,8 +27,6 @@ VGG-16, derin öğrenme alanında yaygın olarak kullanılan bir görüntü sın
   - Daha az veri ile yüksek performans sağlama.
 - **Değerlendirme Metrikleri:**
   - Doğruluk (Accuracy)
-  - Hassasiyet (Precision)
-  - Duyarlılık (Recall)
 
 ### Class Activation Maps (CAMs)
 
