@@ -49,4 +49,4 @@ Daha fazla bilgi ve kod için [buraya tıklayın](https://github.com/geoaihub/Ge
 Bu projeye katkıda bulunmak için lütfen bir **pull request** gönderin veya bir **issue** açarak görüşlerinizi paylaşın.
 
 ## Lisans
-Bu repository, Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) lisansı altında yayımlanmıştır.
+Bu repository, MIT lisansı altında yayımlanmıştır.
