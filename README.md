@@ -12,7 +12,7 @@
 ## Bu Repository Hakkında
 Bu repository, GeoTalks etkinlikleri kapsamında gerçekleştirilen iki çalışmayı içermektedir:
 1. **LULC (Arazi Örtüsü ve Kullanımı) Sınıflandırma** 
-2. **Scene Classification (Kasırga Sonrası Yapı Hasarlarının Sınıflandırılması)**
+2. **Scene Classification (Kasırga Sonrası Yapıların Sınıflandırılması)**
 
 <br>
 
@@ -30,7 +30,7 @@ Daha fazla bilgi ve kod için [buraya tıklayın](https://github.com/geoaihub/Ge
 <br>
 
 ### 2. Sahne Sınıflandırma
-Bu çalışmada, Hurricane Harvey sonrası uydu görüntüleri kullanılarak yapı hasarlarının sınıflandırılması gerçekleştirilmiştir. Derin öğrenme tabanlı VGG-16 mimarisi kullanılmış ve Class Activation Maps (CAMs) yöntemiyle modelin karar süreçleri görselleştirilmiştir.
+Bu çalışmada, Hurricane Harvey sonrası uydu görüntüleri kullanılarak yapıların sınıflandırılması gerçekleştirilmiştir. Derin öğrenme tabanlı VGG-16 mimarisi kullanılmış ve Class Activation Maps (CAMs) yöntemiyle modelin karar süreçleri görselleştirilmiştir.
 
 #### Detaylar:
 - **Veri Seti:** Kaggle üzerinden temin edilen Hurricane Damage Satellite Images veri seti kullanılmıştır. Veri seti, kasırga sonrası hasar görmüş ve hasar görmemiş yapıları içermektedir.
