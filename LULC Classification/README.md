@@ -32,7 +32,6 @@ Random Forest, makine öğrenmesinde yaygın olarak kullanılan bir denetimli ö
 - **Değerlendirme Metrikleri:**
   - Doğruluk
   - F1 Skoru
-  - Kappa
 - **Özellik Önem Dereceleri:** Modelin hangi özelliklere daha fazla önem verdiği SHAP ile analiz edilmiştir.
 
 <br>
