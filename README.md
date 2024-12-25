@@ -21,7 +21,7 @@ Bu çalışmada, Sentinel-2 uydu görüntüleri ve türetilmiş indeksler (örne
 
 #### Detaylar:
 - **Veri Seti:** Çalışmada, 18 Ağustos 2023 tarihli Sentinel-2 uydu görüntülerinden elde edilen dokuz adet spektral bant ve dokuz adet indeks kullanılmıştır. Toplamda 1.575.249 piksel etiketlenmiş, eğitim için 100.000 etiketli nokta oluşturulmuştur.
-- **Yöntem:** Rastgele orman (Random Forest) sınıflandırıcısı kullanılarak, modelin performansı doğruluk ve F1 skoru ile değerlendirilmiştir. Ayrıca, SHAP (SHapley Additive Explanations) yöntemiyle modelin karar süreçleri açıklanmıştır.
+- **Yöntem:** Rastgele orman (Random Forest) sınıflandırıcısı kullanılarak, modelin performansı doğruluk kesinlik, duyarlılık ve F1 skoru ile değerlendirilmiştir. Ayrıca, SHAP (SHapley Additive Explanations) yöntemiyle modelin karar süreçleri açıklanmıştır.
 - **Amaç:** Arazi sınıflarını doğru bir şekilde tespit etmek ve sınıflandırma sürecindeki en etkili öznitelikleri belirlemek.
 - **Sonuçlar:** Sınıflandırma sonuçları harita üzerinde görselleştirilmiş ve farklı arazi örtüsü türleri analiz edilmiştir.
 
