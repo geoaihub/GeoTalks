@@ -43,6 +43,8 @@ SHAP yöntemi, sınıflandırma modelinin karar süreçlerini açıklamak için 
 
 Daha spesifik olmak gerekirsek eğer, bu çalışmada beş farklı arazi sınıfına ait global minimum ve maksimum değerler belirlenerek SHAP değerleri görselleştirilmiştir. İlk olarak, her bir sınıf için SHAP değerleri yüklenip yeniden şekillendirilerek 50x50'lik bir matris oluşturulmuştur. Ardından, bu verilerin 32x32'lik kısmı kullanılarak her sınıf için renkli haritalar (heatmap) oluşturulmuştur. Görselleştirme, her bir sınıfın model üzerindeki etkisini göstermek amacıyla SHAP değerlerini renkli bir şekilde sunmuştur. Sonuç olarak, bu işlem, modelin hangi özelliklere odaklandığını ve karar verme süreçlerini daha şeffaf hale getirmiştir.
 
+<br>
+
 <img  src="https://raw.githubusercontent.com/geoaihub/GeoTalks/refs/heads/main/LULC%20Classification/plots/SHAP_visual.png"  height=300  width=1000  alt="https://github.com/geoaihub"/>
 
 <br>
