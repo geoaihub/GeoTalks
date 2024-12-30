@@ -7,7 +7,7 @@
 <br>
 
 ## Proje Hakkında
-Bu proje, Sentinel-2 uydu görüntülerinden elde edilen spektral bantlar ve türetilmiş indeksler kullanılarak Çukurova Havzası'nın arazi örtüsü ve arazi kullanımı sınıflandırmasını gerçekleştirmektedir. Projede, rastgele orman (Random Forest) algoritması ve açıklanabilir yapay zeka yöntemleri (örneğin, SHAP) uygulanmıştır.
+Bu proje, Sentinel-2 uydu görüntülerinden elde edilen spektral bantlar ve türetilmiş indeksler kullanılarak Çukurova Havzası'nın arazi örtüsü ve arazi kullanımı sınıflandırmasının gerçekleştirildiği [Görüntülerinin Yapay Zeka Algoritmaları ile Sınıflandırılması ve Sınıflandırmaya Etki Eden Faktörlerin SHAP Tekniği ile Açıklanabilirliği](https://www.researchgate.net/publication/385250248_SENTINEL-2_GORUNTULERININ_YAPAY_ZEKA_ALGORITMALARI_ILE_SINIFLANDIRMASI_VE_SINIFLANDIRMAYA_ETKI_EDEN_FAKTORLERIN_SHAP_TEKNIGI_ILE_ACIKLANABILIRLIGI) konferas bildirisinin demosu niteliğindedir. Bu çalışmada, rastgele orman (Random Forest) algoritması ve açıklanabilir yapay zeka yöntemleri (örneğin, SHAP) uygulanmıştır.
 
 <br>
 
